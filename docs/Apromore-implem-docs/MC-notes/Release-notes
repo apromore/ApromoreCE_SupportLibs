@@ -1,0 +1,75 @@
+<wiki:toc max_depth="1" />
+
+#release notes for Apromore
+
+=Version 0.1=
+
+==23/07/2010==
+
+ * Release notes accessible from Apromore poral.
+ * GUI import/export/edit improved
+
+==21/07/2010==
+ * User is given the choice of using annotations or not when exporting or editing a process model.
+ * When editing process model meta data users can choose owner
+ * Ranking can be null (not necessarily 0 or 1, ..)
+
+==30/7/2010==
+ * When saving modifications with Oryx, users are given the choice to override the current version (only if the current version is a leaf of the derivation tree) or to derive a new version from the current one (the new name must be different from all existing version names for the same process).
+ 
+==4/8/2010==
+ * Unselect button behavior is fixed.
+ 
+==10/8/2010==
+ * cpf_0.4 and anf_0.2 new releases are integrated.
+ * Process model Id is now a double whose decimal representation is concat(processId, versionName-no".", timestamp).
+ * processId remove from table, 
+ * Documentation fixed: clic on it to display the full content.
+
+ 
+==11/8/2010==
+ * Ranking number replaced with fancy stars. Still needs to add interactions so users can rank process versions (currently possible via edit meta data feature).
+ * Feature "create model" enhanced: users are no longer requested to give a version name in the create model dialog. The only one process version resulting by "create process" is the one named in Oryx. 
+
+
+=Version 0.2=
+ 
+==23/11/2010==
+ * Annotations: for each process version available annotations are displayed.
+ * GUI for editing process enhanced: user can not make incompatible choices.
+ * Users can choose to edit annotation only. Oryx will disable features so users cannot modify any part of the process structure
+ * Similarity search: still ongoing work on Reina's algo integration
+ * Merge: same.
+
+==1/12/2010==
+ * Similarity search issues fixed
+ * Merge: ongoing work
+
+==27/1/2011==
+ * Short message located at the bottom of the main window is re-initialised at each action
+ * Similarity search keeps going even in case of faulty process versions
+ * For similarity search and merging, greedy algorithm is the default choice.
+
+==31/1/2011==
+ * Search for similar processes: query process displayed
+ * Scores for returned process versions still to be fixed
+
+==12/02/2011==
+ * Merge works
+ * Similarity search results: scores are displayed
+
+==02/03/2011==
+ * Results from similarity search are displayed according to their score
+
+==12/04/2011==
+ * Squeleton for initialising epml process fixed
+ * SimpleSearch component accessible by anonymous users (public)
+
+==7/06/2011==
+ * Fixes to issues 127 
+
+==19/07/2011==
+ * Ordering functions on process information is fixed.
+ 
+==25/07/2001==
+ * Now users are given the choice to search (similarty) process latest versions only or all versions

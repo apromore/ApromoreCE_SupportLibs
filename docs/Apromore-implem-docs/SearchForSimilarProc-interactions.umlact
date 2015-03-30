@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_WGZs4KZ7Ed-7OMipEtB3Ww" type="UMLActivity" name="SearchForSimilarProc-interactions.umlact" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_WGZs4aZ7Ed-7OMipEtB3Ww"/>
+  <element xmi:type="uml:Package" href="diagrams/SearchForSimilarProc-interactions.uml#_WEtq0KZ7Ed-7OMipEtB3Ww"/>
+</notation:Diagram>

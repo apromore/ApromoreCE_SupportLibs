@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_BYTVwDyGEd-PuesF_l6bvg" name="Adapter">
+  <elementImport xmi:id="_BYzFADyGEd-PuesF_l6bvg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_BYzFATyGEd-PuesF_l6bvg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_BYzFAjyGEd-PuesF_l6bvg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_BYzFAzyGEd-PuesF_l6bvg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DvR0MDyGEd-PuesF_l6bvg" name="XXXMessage"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_InF3sDyGEd-PuesF_l6bvg" name="xpdlMessage">
+    <generalization xmi:id="_Xu-c0DyGEd-PuesF_l6bvg" general="_DvR0MDyGEd-PuesF_l6bvg" generalizationSet="_WbHoQDyGEd-PuesF_l6bvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_J3beMDyGEd-PuesF_l6bvg" name="yawlMessage">
+    <generalization xmi:id="_XMuEUDyGEd-PuesF_l6bvg" general="_DvR0MDyGEd-PuesF_l6bvg" generalizationSet="_WbHoQDyGEd-PuesF_l6bvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LAIysDyGEd-PuesF_l6bvg" name="bpelMessage">
+    <generalization xmi:id="_WbSnYDyGEd-PuesF_l6bvg" general="_DvR0MDyGEd-PuesF_l6bvg" generalizationSet="_WbHoQDyGEd-PuesF_l6bvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NI2ysDyGEd-PuesF_l6bvg" name="...">
+    <generalization xmi:id="_VxZV0DyGEd-PuesF_l6bvg" general="_DvR0MDyGEd-PuesF_l6bvg" generalizationSet="_WbHoQDyGEd-PuesF_l6bvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:GeneralizationSet" xmi:id="_WbHoQDyGEd-PuesF_l6bvg" isCovering="true" isDisjoint="true" generalization="_VxZV0DyGEd-PuesF_l6bvg _WbSnYDyGEd-PuesF_l6bvg _XMuEUDyGEd-PuesF_l6bvg _Xu-c0DyGEd-PuesF_l6bvg"/>
+</uml:Package>

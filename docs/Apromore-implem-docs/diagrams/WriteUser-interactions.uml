@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_JTIQEEKhEd-m8-35QmbIig">
+  <elementImport xmi:id="_JTomYEKhEd-m8-35QmbIig">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_JTomYUKhEd-m8-35QmbIig">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_JTomYkKhEd-m8-35QmbIig">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_JTomY0KhEd-m8-35QmbIig">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_KVym8EKhEd-m8-35QmbIig" name="Repository manager">
+    <node xmi:type="uml:OpaqueAction" xmi:id="_aT9T0EKhEd-m8-35QmbIig" name="Receive WriteUser(u,p,m)/POST" outgoing="_kwTW4EKhEd-m8-35QmbIig" incoming="_a6EcIEKiEd-m8-35QmbIig"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_hwG8UEKhEd-m8-35QmbIig" name="Send CheckCD(u,p)/GET" outgoing="_qVbMUEKhEd-m8-35QmbIig" incoming="_kwTW4EKhEd-m8-35QmbIig"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1kP1MEKhEd-m8-35QmbIig" name="Receive Result" outgoing="_AyUQIEKiEd-m8-35QmbIig" incoming="__QwWwEKhEd-m8-35QmbIig"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_55HjsEKhEd-m8-35QmbIig" name="check Result" outgoing="_Bn-FwEKiEd-m8-35QmbIig" incoming="_AyUQIEKiEd-m8-35QmbIig"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_77bZsEKhEd-m8-35QmbIig" name="DecisionNode" outgoing="_IMpTsEKiEd-m8-35QmbIig _8ynjkEKlEd-m8-35QmbIig" incoming="_Bn-FwEKiEd-m8-35QmbIig"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_EBTUoEKiEd-m8-35QmbIig" name="Send WriteUser(m)/POST" outgoing="_GtKBcEKjEd-m8-35QmbIig" incoming="_IMpTsEKiEd-m8-35QmbIig"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_aOa3EEKiEd-m8-35QmbIig" outgoing="_a6EcIEKiEd-m8-35QmbIig"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_yHVM8EKiEd-m8-35QmbIig" name="Receive Result" outgoing="_FUgFEEKmEd-m8-35QmbIig" incoming="_1XsxgEKiEd-m8-35QmbIig"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_AK084EKjEd-m8-35QmbIig" name="Send Result" outgoing="_OA-tAEKmEd-m8-35QmbIig" incoming="_8ynjkEKlEd-m8-35QmbIig"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Cd_yAEKmEd-m8-35QmbIig" name="Send Result" outgoing="_QsB-AEKmEd-m8-35QmbIig" incoming="_FUgFEEKmEd-m8-35QmbIig"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_R2tocEKmEd-m8-35QmbIig" incoming="_VaYjgEKmEd-m8-35QmbIig"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_p3ZsYELJEd-m8-35QmbIig" name="MergeNode" outgoing="_VaYjgEKmEd-m8-35QmbIig" incoming="_OA-tAEKmEd-m8-35QmbIig _QsB-AEKmEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kwTW4EKhEd-m8-35QmbIig" source="_aT9T0EKhEd-m8-35QmbIig" target="_hwG8UEKhEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qVbMUEKhEd-m8-35QmbIig" source="_hwG8UEKhEd-m8-35QmbIig" target="_nEEJQEKhEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_AyUQIEKiEd-m8-35QmbIig" source="_1kP1MEKhEd-m8-35QmbIig" target="_55HjsEKhEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Bn-FwEKiEd-m8-35QmbIig" source="_55HjsEKhEd-m8-35QmbIig" target="_77bZsEKhEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_IMpTsEKiEd-m8-35QmbIig" name="[credentials OK]" source="_77bZsEKhEd-m8-35QmbIig" target="_EBTUoEKiEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_a6EcIEKiEd-m8-35QmbIig" source="_aOa3EEKiEd-m8-35QmbIig" target="_aT9T0EKhEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GtKBcEKjEd-m8-35QmbIig" source="_EBTUoEKiEd-m8-35QmbIig" target="_m0OhAEKiEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8ynjkEKlEd-m8-35QmbIig" name="[credentials non ok]" source="_77bZsEKhEd-m8-35QmbIig" target="_AK084EKjEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FUgFEEKmEd-m8-35QmbIig" source="_yHVM8EKiEd-m8-35QmbIig" target="_Cd_yAEKmEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OA-tAEKmEd-m8-35QmbIig" source="_AK084EKjEd-m8-35QmbIig" target="_p3ZsYELJEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QsB-AEKmEd-m8-35QmbIig" source="_Cd_yAEKmEd-m8-35QmbIig" target="_p3ZsYELJEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VaYjgEKmEd-m8-35QmbIig" source="_p3ZsYELJEd-m8-35QmbIig" target="_R2tocEKmEd-m8-35QmbIig"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_LxaQYEKhEd-m8-35QmbIig" name="Access control">
+    <node xmi:type="uml:OpaqueAction" xmi:id="_nEEJQEKhEd-m8-35QmbIig" name="Receive CheckCD(u,p)/GET" outgoing="_0tGKwEKhEd-m8-35QmbIig" incoming="_qVbMUEKhEd-m8-35QmbIig"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_vi0eQEKhEd-m8-35QmbIig" name="check credentials(u,p)" outgoing="_1IpeUEKhEd-m8-35QmbIig" incoming="_0tGKwEKhEd-m8-35QmbIig"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_yXLcQEKhEd-m8-35QmbIig" name="Send Result" outgoing="__QwWwEKhEd-m8-35QmbIig" incoming="_1IpeUEKhEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0tGKwEKhEd-m8-35QmbIig" source="_nEEJQEKhEd-m8-35QmbIig" target="_vi0eQEKhEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1IpeUEKhEd-m8-35QmbIig" source="_vi0eQEKhEd-m8-35QmbIig" target="_yXLcQEKhEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__QwWwEKhEd-m8-35QmbIig" source="_yXLcQEKhEd-m8-35QmbIig" target="_1kP1MEKhEd-m8-35QmbIig"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_UVwakEKiEd-m8-35QmbIig" name="Data access service">
+    <node xmi:type="uml:OpaqueAction" xmi:id="_m0OhAEKiEd-m8-35QmbIig" name="Receive WriteUser(m)/POST" outgoing="_wUmEAEKiEd-m8-35QmbIig" incoming="_GtKBcEKjEd-m8-35QmbIig"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_rHpeAEKiEd-m8-35QmbIig" name="StoreUser(m)" outgoing="_w-U9gEKiEd-m8-35QmbIig" incoming="_wUmEAEKiEd-m8-35QmbIig"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_uLaJ8EKiEd-m8-35QmbIig" name="Send Result" outgoing="_1XsxgEKiEd-m8-35QmbIig" incoming="_w-U9gEKiEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wUmEAEKiEd-m8-35QmbIig" source="_m0OhAEKiEd-m8-35QmbIig" target="_rHpeAEKiEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_w-U9gEKiEd-m8-35QmbIig" source="_rHpeAEKiEd-m8-35QmbIig" target="_uLaJ8EKiEd-m8-35QmbIig"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1XsxgEKiEd-m8-35QmbIig" source="_uLaJ8EKiEd-m8-35QmbIig" target="_yHVM8EKiEd-m8-35QmbIig"/>
+  </packagedElement>
+</uml:Package>

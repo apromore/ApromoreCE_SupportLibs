@@ -1,0 +1,4 @@
+org.apromore.plugin.deployment
+org.apromore.plugin.deployment.exception
+org.apromore.plugin.deployment.impl
+org.apromore.plugin.deployment.provider

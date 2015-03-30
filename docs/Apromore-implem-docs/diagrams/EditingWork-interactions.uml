@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <uml:Package xmi:id="_4tu7wGoLEd-mk9cSGR_KMQ">
+    <elementImport xmi:id="_4uOD8GoLEd-mk9cSGR_KMQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_4uOD8WoLEd-mk9cSGR_KMQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <elementImport xmi:id="_4uOD8moLEd-mk9cSGR_KMQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+    </elementImport>
+    <elementImport xmi:id="_4uOD82oLEd-mk9cSGR_KMQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_6BxWgGoLEd-mk9cSGR_KMQ" name="Oryx">
+      <node xmi:type="uml:InitialNode" xmi:id="_9I-_EGoLEd-mk9cSGR_KMQ" outgoing="_VbHGMGoMEd-mk9cSGR_KMQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_9v5OEGoLEd-mk9cSGR_KMQ" name="Receive ReadNativeOutputMsg" outgoing="_bFGjMHHQEd-24_p0AMEvzQ" incoming="_VbHGMGoMEd-mk9cSGR_KMQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_HwzSUGoMEd-mk9cSGR_KMQ" name="Work with editor" outgoing="_WgJboGoMEd-mk9cSGR_KMQ" incoming="_V9gooGoMEd-mk9cSGR_KMQ"/>
+      <node xmi:type="uml:MergeNode" xmi:id="_KrlBYGoMEd-mk9cSGR_KMQ" name="MergeNode" outgoing="_XGTcsGoMEd-mk9cSGR_KMQ _YLRgsGoMEd-mk9cSGR_KMQ _uVtHkMWKEd-X4oEBjzuaqA" incoming="_WgJboGoMEd-mk9cSGR_KMQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_MQvoYGoMEd-mk9cSGR_KMQ" name="Acquire annotation name" outgoing="_NVoXYGoNEd-mk9cSGR_KMQ" incoming="_XGTcsGoMEd-mk9cSGR_KMQ _sZb0cM1nEd-LJri_3fPezw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_lhMY8GoMEd-mk9cSGR_KMQ" name="Send WriteAnnotationInputMsg" outgoing="_bUriQG6ZEd-HmJTmOuV7rw" incoming="_YLRgsGoMEd-mk9cSGR_KMQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_p3YWEGoMEd-mk9cSGR_KMQ" name="Send WriteNewAnnotationInputMsg" outgoing="_0jNtQH9uEd-l5PJ7iLmDVg" incoming="_NVoXYGoNEd-mk9cSGR_KMQ"/>
+      <node xmi:type="uml:MergeNode" xmi:id="_Yw6TAHHQEd-24_p0AMEvzQ" name="MergeNode" outgoing="_V9gooGoMEd-mk9cSGR_KMQ" incoming="_bFGjMHHQEd-24_p0AMEvzQ _dtz80G6ZEd-HmJTmOuV7rw _GqfbsH9vEd-l5PJ7iLmDVg"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_5GzNMH9uEd-l5PJ7iLmDVg" name="Receive WriteAnnotationOutputMsg" outgoing="_8SrnEJoMEd--Tr82p8KJ7A" incoming="_99ZIsH9uEd-l5PJ7iLmDVg"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_T01WEH9vEd-l5PJ7iLmDVg" name="Receive WriteAnnotationOutputMsg" outgoing="_dtz80G6ZEd-HmJTmOuV7rw" incoming="_Y4LUIH9vEd-l5PJ7iLmDVg"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_5-syQJoMEd--Tr82p8KJ7A" name="DecisionNode" outgoing="_GqfbsH9vEd-l5PJ7iLmDVg _sZb0cM1nEd-LJri_3fPezw" incoming="_8SrnEJoMEd--Tr82p8KJ7A"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_thIQAMWKEd-X4oEBjzuaqA" incoming="_uVtHkMWKEd-X4oEBjzuaqA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_VbHGMGoMEd-mk9cSGR_KMQ" source="_9I-_EGoLEd-mk9cSGR_KMQ" target="_9v5OEGoLEd-mk9cSGR_KMQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_V9gooGoMEd-mk9cSGR_KMQ" source="_Yw6TAHHQEd-24_p0AMEvzQ" target="_HwzSUGoMEd-mk9cSGR_KMQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_WgJboGoMEd-mk9cSGR_KMQ" source="_HwzSUGoMEd-mk9cSGR_KMQ" target="_KrlBYGoMEd-mk9cSGR_KMQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_XGTcsGoMEd-mk9cSGR_KMQ" name="save as" source="_KrlBYGoMEd-mk9cSGR_KMQ" target="_MQvoYGoMEd-mk9cSGR_KMQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_YLRgsGoMEd-mk9cSGR_KMQ" name="save" source="_KrlBYGoMEd-mk9cSGR_KMQ" target="_lhMY8GoMEd-mk9cSGR_KMQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_NVoXYGoNEd-mk9cSGR_KMQ" source="_MQvoYGoMEd-mk9cSGR_KMQ" target="_p3YWEGoMEd-mk9cSGR_KMQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_bUriQG6ZEd-HmJTmOuV7rw" source="_lhMY8GoMEd-mk9cSGR_KMQ" target="_7IGP8GoMEd-mk9cSGR_KMQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_dtz80G6ZEd-HmJTmOuV7rw" name="annotation saved" source="_T01WEH9vEd-l5PJ7iLmDVg" target="_Yw6TAHHQEd-24_p0AMEvzQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_bFGjMHHQEd-24_p0AMEvzQ" source="_9v5OEGoLEd-mk9cSGR_KMQ" target="_Yw6TAHHQEd-24_p0AMEvzQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_0jNtQH9uEd-l5PJ7iLmDVg" source="_p3YWEGoMEd-mk9cSGR_KMQ" target="_21kq0GoMEd-mk9cSGR_KMQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_GqfbsH9vEd-l5PJ7iLmDVg" name="annotation saved" source="_5-syQJoMEd--Tr82p8KJ7A" target="_Yw6TAHHQEd-24_p0AMEvzQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_8SrnEJoMEd--Tr82p8KJ7A" source="_5GzNMH9uEd-l5PJ7iLmDVg" target="_5-syQJoMEd--Tr82p8KJ7A"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_uVtHkMWKEd-X4oEBjzuaqA" name="close" source="_KrlBYGoMEd-mk9cSGR_KMQ" target="_thIQAMWKEd-X4oEBjzuaqA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_sZb0cM1nEd-LJri_3fPezw" name="invalid annotation name" source="_5-syQJoMEd--Tr82p8KJ7A" target="_MQvoYGoMEd-mk9cSGR_KMQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_0o4JwGoMEd-mk9cSGR_KMQ" name="Portal">
+      <node xmi:type="uml:OpaqueAction" xmi:id="_21kq0GoMEd-mk9cSGR_KMQ" name="Receive WriteNewAnnotationInputMsg" outgoing="_hDSNwGoNEd-mk9cSGR_KMQ" incoming="_0jNtQH9uEd-l5PJ7iLmDVg"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_7IGP8GoMEd-mk9cSGR_KMQ" name="Receive WriteAnnotationInputMsg" outgoing="_9aVi4GoNEd-mk9cSGR_KMQ" incoming="_bUriQG6ZEd-HmJTmOuV7rw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_YB8JEGoNEd-mk9cSGR_KMQ" name="writeAnnotation(new annot) / manager" outgoing="_9QIaEH9uEd-l5PJ7iLmDVg" incoming="_hDSNwGoNEd-mk9cSGR_KMQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_sHaCgGoNEd-mk9cSGR_KMQ" name="WriteAnnotation(existing annot) / manager" outgoing="_SL3NIH9vEd-l5PJ7iLmDVg" incoming="_9aVi4GoNEd-mk9cSGR_KMQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_2PnksH9uEd-l5PJ7iLmDVg" name="send WriteNewAnnotationOutputMsg" outgoing="_99ZIsH9uEd-l5PJ7iLmDVg" incoming="_9QIaEH9uEd-l5PJ7iLmDVg"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_PqpNkH9vEd-l5PJ7iLmDVg" name="Send WriteAnnotationOutputMsg" outgoing="_Y4LUIH9vEd-l5PJ7iLmDVg" incoming="_SL3NIH9vEd-l5PJ7iLmDVg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_hDSNwGoNEd-mk9cSGR_KMQ" source="_21kq0GoMEd-mk9cSGR_KMQ" target="_YB8JEGoNEd-mk9cSGR_KMQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_9aVi4GoNEd-mk9cSGR_KMQ" source="_7IGP8GoMEd-mk9cSGR_KMQ" target="_sHaCgGoNEd-mk9cSGR_KMQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_9QIaEH9uEd-l5PJ7iLmDVg" source="_YB8JEGoNEd-mk9cSGR_KMQ" target="_2PnksH9uEd-l5PJ7iLmDVg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_99ZIsH9uEd-l5PJ7iLmDVg" source="_2PnksH9uEd-l5PJ7iLmDVg" target="_5GzNMH9uEd-l5PJ7iLmDVg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_SL3NIH9vEd-l5PJ7iLmDVg" source="_sHaCgGoNEd-mk9cSGR_KMQ" target="_PqpNkH9vEd-l5PJ7iLmDVg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Y4LUIH9vEd-l5PJ7iLmDVg" source="_PqpNkH9vEd-l5PJ7iLmDVg" target="_T01WEH9vEd-l5PJ7iLmDVg"/>
+    </packagedElement>
+  </uml:Package>
+  <uml:Constraint xmi:id="__mRO8GoNEd-mk9cSGR_KMQ"/>
+</xmi:XMI>

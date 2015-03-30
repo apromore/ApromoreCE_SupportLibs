@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_xd5dYJ7DEd-yN_EWmNEmrg" type="UMLActivity" name="SearchForSimilarProcesses-interactions.umlact" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_yu05wJ7DEd-yN_EWmNEmrg" type="2026" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_yu1g0J7DEd-yN_EWmNEmrg" type="5030"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yu1g0Z7DEd-yN_EWmNEmrg" type="5093"/>
+    <children xmi:type="notation:Shape" xmi:id="_-bxCAJ7DEd-yN_EWmNEmrg" type="3029" fontName="Sans">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-bxCAp7DEd-yN_EWmNEmrg" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-bxpEJ7DEd-yN_EWmNEmrg" type="5110"/>
+      <element xmi:type="uml:OpaqueAction" href="SearchForSimilarProcesses-interactions.uml#_-bi_kJ7DEd-yN_EWmNEmrg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-bxCAZ7DEd-yN_EWmNEmrg" x="10" y="36"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Eq1MUJ7EEd-yN_EWmNEmrg" type="3029" fontName="Sans">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Eq1MUp7EEd-yN_EWmNEmrg" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Eq1MU57EEd-yN_EWmNEmrg" type="5110"/>
+      <element xmi:type="uml:OpaqueAction" href="SearchForSimilarProcesses-interactions.uml#_EqsCYJ7EEd-yN_EWmNEmrg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Eq1MUZ7EEd-yN_EWmNEmrg" x="85" y="96"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Ez8ksJ7HEd-yN_EWmNEmrg" type="3029" fontName="Sans">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ez9LwJ7HEd-yN_EWmNEmrg" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ez9LwZ7HEd-yN_EWmNEmrg" type="5110"/>
+      <element xmi:type="uml:OpaqueAction" href="SearchForSimilarProcesses-interactions.uml#_Ez1P8J7HEd-yN_EWmNEmrg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ez8ksZ7HEd-yN_EWmNEmrg" x="5" y="386"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_TtDuAJ7HEd-yN_EWmNEmrg" type="3029" fontName="Sans">
+      <children xmi:type="notation:DecorationNode" xmi:id="_TtDuAp7HEd-yN_EWmNEmrg" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_TtDuA57HEd-yN_EWmNEmrg" type="5110"/>
+      <element xmi:type="uml:OpaqueAction" href="SearchForSimilarProcesses-interactions.uml#_Ts8ZQJ7HEd-yN_EWmNEmrg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TtDuAZ7HEd-yN_EWmNEmrg" x="100" y="441"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_aF3qMJ7HEd-yN_EWmNEmrg" type="3035">
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_aF3qMZ7HEd-yN_EWmNEmrg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_aF3qMp7HEd-yN_EWmNEmrg" fontName="Sans"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_aF3qM57HEd-yN_EWmNEmrg"/>
+      <element xmi:type="uml:InitialNode" href="SearchForSimilarProcesses-interactions.uml#_aF3DIJ7HEd-yN_EWmNEmrg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aF3qNJ7HEd-yN_EWmNEmrg" x="59" y="2"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_fnjxIJ7HEd-yN_EWmNEmrg" type="3032">
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_fnjxIZ7HEd-yN_EWmNEmrg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_fnjxIp7HEd-yN_EWmNEmrg" fontName="Sans"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_fnjxI57HEd-yN_EWmNEmrg"/>
+      <element xmi:type="uml:ActivityFinalNode" href="SearchForSimilarProcesses-interactions.uml#_fnYK8J7HEd-yN_EWmNEmrg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fnjxJJ7HEd-yN_EWmNEmrg" x="290" y="446"/>
+    </children>
+    <element xmi:type="uml:Activity" href="SearchForSimilarProcesses-interactions.uml#_yuBBcJ7DEd-yN_EWmNEmrg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yu05wZ7DEd-yN_EWmNEmrg" x="75" y="78" width="321" height="513"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_2Dd6UJ7DEd-yN_EWmNEmrg" type="2026" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2Dd6Up7DEd-yN_EWmNEmrg" type="5030"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2DehYJ7DEd-yN_EWmNEmrg" type="5093"/>
+    <children xmi:type="notation:Shape" xmi:id="_MhNSsJ7EEd-yN_EWmNEmrg" type="3029" fontName="Sans">
+      <children xmi:type="notation:DecorationNode" xmi:id="_MhN5wJ7EEd-yN_EWmNEmrg" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_MhN5wZ7EEd-yN_EWmNEmrg" type="5110"/>
+      <element xmi:type="uml:OpaqueAction" href="SearchForSimilarProcesses-interactions.uml#_MhEv0J7EEd-yN_EWmNEmrg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MhNSsZ7EEd-yN_EWmNEmrg" x="8" y="89"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_XWpyQJ7EEd-yN_EWmNEmrg" type="3029" fontName="Sans">
+      <children xmi:type="notation:DecorationNode" xmi:id="_XWpyQp7EEd-yN_EWmNEmrg" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_XWpyQ57EEd-yN_EWmNEmrg" type="5110"/>
+      <element xmi:type="uml:OpaqueAction" href="SearchForSimilarProcesses-interactions.uml#_XWh2cJ7EEd-yN_EWmNEmrg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XWpyQZ7EEd-yN_EWmNEmrg" x="46" y="149"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_TCupgJ7FEd-yN_EWmNEmrg" type="3029" fontName="Sans">
+      <children xmi:type="notation:DecorationNode" xmi:id="_TCupgp7FEd-yN_EWmNEmrg" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_TCupg57FEd-yN_EWmNEmrg" type="5110"/>
+      <element xmi:type="uml:OpaqueAction" href="SearchForSimilarProcesses-interactions.uml#_TCmtsJ7FEd-yN_EWmNEmrg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TCupgZ7FEd-yN_EWmNEmrg" x="36" y="259"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_sEC8cJ7GEd-yN_EWmNEmrg" type="3029" fontName="Sans">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sEDjgJ7GEd-yN_EWmNEmrg" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sEDjgZ7GEd-yN_EWmNEmrg" type="5110"/>
+      <element xmi:type="uml:OpaqueAction" href="SearchForSimilarProcesses-interactions.uml#_sD7AoJ7GEd-yN_EWmNEmrg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sEC8cZ7GEd-yN_EWmNEmrg" x="78" y="319"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_vzitAJ7GEd-yN_EWmNEmrg" type="3029" fontName="Sans">
+      <children xmi:type="notation:DecorationNode" xmi:id="_vzjUEJ7GEd-yN_EWmNEmrg" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_vzjUEZ7GEd-yN_EWmNEmrg" type="5110"/>
+      <element xmi:type="uml:OpaqueAction" href="SearchForSimilarProcesses-interactions.uml#_vzb_UJ7GEd-yN_EWmNEmrg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vzitAZ7GEd-yN_EWmNEmrg" x="10" y="379"/>
+    </children>
+    <element xmi:type="uml:Activity" href="SearchForSimilarProcesses-interactions.uml#_2DSUIJ7DEd-yN_EWmNEmrg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Dd6UZ7DEd-yN_EWmNEmrg" x="405" y="80" width="256" height="511"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_27nDQJ7DEd-yN_EWmNEmrg" type="2026" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_27nDQp7DEd-yN_EWmNEmrg" type="5030"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_27nqUJ7DEd-yN_EWmNEmrg" type="5093"/>
+    <children xmi:type="notation:Shape" xmi:id="_kHfngJ7EEd-yN_EWmNEmrg" type="3029" fontName="Sans">
+      <children xmi:type="notation:DecorationNode" xmi:id="_kHfngp7EEd-yN_EWmNEmrg" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_kHfng57EEd-yN_EWmNEmrg" type="5110"/>
+      <element xmi:type="uml:OpaqueAction" href="SearchForSimilarProcesses-interactions.uml#_kHXEoJ7EEd-yN_EWmNEmrg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kHfngZ7EEd-yN_EWmNEmrg" x="15" y="144"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_JIVc8J7FEd-yN_EWmNEmrg" type="3029" fontName="Sans">
+      <children xmi:type="notation:DecorationNode" xmi:id="_JIWEAZ7FEd-yN_EWmNEmrg" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JIWEAp7FEd-yN_EWmNEmrg" type="5110"/>
+      <element xmi:type="uml:OpaqueAction" href="SearchForSimilarProcesses-interactions.uml#_JIOIMJ7FEd-yN_EWmNEmrg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JIWEAJ7FEd-yN_EWmNEmrg" x="65" y="199"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_LWjoAJ7FEd-yN_EWmNEmrg" type="3029" fontName="Sans">
+      <children xmi:type="notation:DecorationNode" xmi:id="_LWkPEJ7FEd-yN_EWmNEmrg" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_LWkPEZ7FEd-yN_EWmNEmrg" type="5110"/>
+      <element xmi:type="uml:OpaqueAction" href="SearchForSimilarProcesses-interactions.uml#_LWcTQJ7FEd-yN_EWmNEmrg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LWjoAZ7FEd-yN_EWmNEmrg" x="25" y="254"/>
+    </children>
+    <element xmi:type="uml:Activity" href="SearchForSimilarProcesses-interactions.uml#_27cEIJ7DEd-yN_EWmNEmrg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_27nDQZ7DEd-yN_EWmNEmrg" x="720" y="85" width="261" height="486"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_xd5dYZ7DEd-yN_EWmNEmrg"/>
+  <element xmi:type="uml:Package" href="SearchForSimilarProcesses-interactions.uml#_xbx9gJ7DEd-yN_EWmNEmrg"/>
+  <edges xmi:type="notation:Edge" xmi:id="_LNvfsJ7EEd-yN_EWmNEmrg" type="4001" source="_-bxCAJ7DEd-yN_EWmNEmrg" target="_Eq1MUJ7EEd-yN_EWmNEmrg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LNvftJ7EEd-yN_EWmNEmrg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LNvftZ7EEd-yN_EWmNEmrg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LNwGwJ7EEd-yN_EWmNEmrg" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LNwGwZ7EEd-yN_EWmNEmrg" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LNwGwp7EEd-yN_EWmNEmrg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LNwGw57EEd-yN_EWmNEmrg" y="80"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_LNvfsZ7EEd-yN_EWmNEmrg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LNvfsp7EEd-yN_EWmNEmrg" fontName="Sans"/>
+    <element xmi:type="uml:ControlFlow" href="SearchForSimilarProcesses-interactions.uml#_LNnj4J7EEd-yN_EWmNEmrg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LNvfs57EEd-yN_EWmNEmrg" points="[-2, 20, 5, -40]$[-5, 80, 2, 20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MCk18J7EEd-yN_EWmNEmrg" id="(0.4816053511705686,0.775)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_PyZWoJ7EEd-yN_EWmNEmrg" type="4001" source="_Eq1MUJ7EEd-yN_EWmNEmrg" target="_MhNSsJ7EEd-yN_EWmNEmrg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PyZ9sJ7EEd-yN_EWmNEmrg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PyZ9sZ7EEd-yN_EWmNEmrg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_PyZ9sp7EEd-yN_EWmNEmrg" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PyZ9s57EEd-yN_EWmNEmrg" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_PyZ9tJ7EEd-yN_EWmNEmrg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PyZ9tZ7EEd-yN_EWmNEmrg" y="80"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_PyZWoZ7EEd-yN_EWmNEmrg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_PyZWop7EEd-yN_EWmNEmrg" fontName="Sans"/>
+    <element xmi:type="uml:ControlFlow" href="SearchForSimilarProcesses-interactions.uml#_PyYvkJ7EEd-yN_EWmNEmrg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PyZWo57EEd-yN_EWmNEmrg" points="[17, -2, -176, 18]$[189, -21, -4, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Pyby4J7EEd-yN_EWmNEmrg" id="(0.7976190476190477,0.4)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Pyby4Z7EEd-yN_EWmNEmrg" id="(0.01680672268907563,0.475)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Ev-VkJ7FEd-yN_EWmNEmrg" type="4001" source="_XWpyQJ7EEd-yN_EWmNEmrg" target="_kHfngJ7EEd-yN_EWmNEmrg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ev-VlJ7FEd-yN_EWmNEmrg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Ev-VlZ7FEd-yN_EWmNEmrg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ev-Vlp7FEd-yN_EWmNEmrg" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Ev-Vl57FEd-yN_EWmNEmrg" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ev-VmJ7FEd-yN_EWmNEmrg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Ev-8oJ7FEd-yN_EWmNEmrg" y="80"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_Ev-VkZ7FEd-yN_EWmNEmrg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ev-Vkp7FEd-yN_EWmNEmrg" fontName="Sans"/>
+    <element xmi:type="uml:ControlFlow" href="SearchForSimilarProcesses-interactions.uml#_Ev9ugJ7FEd-yN_EWmNEmrg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ev-Vk57FEd-yN_EWmNEmrg" points="[13, 1, -58, 0]$[60, 0, -11, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EwAKwJ7FEd-yN_EWmNEmrg" id="(0.9403669724770642,0.4)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EwAKwZ7FEd-yN_EWmNEmrg" id="(0.04824561403508772,0.425)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_FsVQIJ7FEd-yN_EWmNEmrg" type="4001" source="_MhNSsJ7EEd-yN_EWmNEmrg" target="_XWpyQJ7EEd-yN_EWmNEmrg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FsVQJJ7FEd-yN_EWmNEmrg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FsVQJZ7FEd-yN_EWmNEmrg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_FsVQJp7FEd-yN_EWmNEmrg" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FsV3MJ7FEd-yN_EWmNEmrg" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_FsV3MZ7FEd-yN_EWmNEmrg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FsV3Mp7FEd-yN_EWmNEmrg" y="80"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_FsVQIZ7FEd-yN_EWmNEmrg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_FsVQIp7FEd-yN_EWmNEmrg" fontName="Sans"/>
+    <element xmi:type="uml:ControlFlow" href="SearchForSimilarProcesses-interactions.uml#_FsUpEJ7FEd-yN_EWmNEmrg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FsVQI57FEd-yN_EWmNEmrg" points="[1, 20, 1, -40]$[13, 40, 13, -20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_RdS8wJ7FEd-yN_EWmNEmrg" type="4001" source="_kHfngJ7EEd-yN_EWmNEmrg" target="_JIVc8J7FEd-yN_EWmNEmrg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RdS8xJ7FEd-yN_EWmNEmrg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RdS8xZ7FEd-yN_EWmNEmrg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RdS8xp7FEd-yN_EWmNEmrg" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RdS8x57FEd-yN_EWmNEmrg" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RdS8yJ7FEd-yN_EWmNEmrg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RdS8yZ7FEd-yN_EWmNEmrg" y="80"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_RdS8wZ7FEd-yN_EWmNEmrg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_RdS8wp7FEd-yN_EWmNEmrg" fontName="Sans"/>
+    <element xmi:type="uml:ControlFlow" href="SearchForSimilarProcesses-interactions.uml#_RdSVsJ7FEd-yN_EWmNEmrg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RdS8w57FEd-yN_EWmNEmrg" points="[1, 20, -2, -23]$[-1, 35, -4, -8]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RdUx8J7FEd-yN_EWmNEmrg" id="(0.4652777777777778,0.2)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_R_ecwJ7FEd-yN_EWmNEmrg" type="4001" source="_JIVc8J7FEd-yN_EWmNEmrg" target="_LWjoAJ7FEd-yN_EWmNEmrg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_R_fq4J7FEd-yN_EWmNEmrg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_R_fq4Z7FEd-yN_EWmNEmrg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_R_fq4p7FEd-yN_EWmNEmrg" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_R_fq457FEd-yN_EWmNEmrg" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_R_fq5J7FEd-yN_EWmNEmrg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_R_fq5Z7FEd-yN_EWmNEmrg" y="80"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_R_ecwZ7FEd-yN_EWmNEmrg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_R_ecwp7FEd-yN_EWmNEmrg" fontName="Sans"/>
+    <element xmi:type="uml:ControlFlow" href="SearchForSimilarProcesses-interactions.uml#_R_d1sJ7FEd-yN_EWmNEmrg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_R_ecw57FEd-yN_EWmNEmrg" points="[-4, 20, -3, -35]$[-17, 35, -16, -20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_5Mup8J7GEd-yN_EWmNEmrg" type="4001" source="_LWjoAJ7FEd-yN_EWmNEmrg" target="_TCupgJ7FEd-yN_EWmNEmrg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_5MvRAJ7GEd-yN_EWmNEmrg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5MvRAZ7GEd-yN_EWmNEmrg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5MvRAp7GEd-yN_EWmNEmrg" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5MvRA57GEd-yN_EWmNEmrg" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5MvRBJ7GEd-yN_EWmNEmrg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5MvRBZ7GEd-yN_EWmNEmrg" y="80"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_5Mup8Z7GEd-yN_EWmNEmrg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5Mup8p7GEd-yN_EWmNEmrg" fontName="Sans"/>
+    <element xmi:type="uml:ControlFlow" href="SearchForSimilarProcesses-interactions.uml#_5MuC4J7GEd-yN_EWmNEmrg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5Mup857GEd-yN_EWmNEmrg" points="[-21, -2, 100, 0]$[-113, -2, 8, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5MxGMJ7GEd-yN_EWmNEmrg" id="(0.09375,0.475)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5MxGMZ7GEd-yN_EWmNEmrg" id="(0.9663865546218487,0.55)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_58t8cJ7GEd-yN_EWmNEmrg" type="4001" source="_TCupgJ7FEd-yN_EWmNEmrg" target="_sEC8cJ7GEd-yN_EWmNEmrg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_58ujgJ7GEd-yN_EWmNEmrg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_58ujgZ7GEd-yN_EWmNEmrg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_58ujgp7GEd-yN_EWmNEmrg" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_58ujg57GEd-yN_EWmNEmrg" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_58ujhJ7GEd-yN_EWmNEmrg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_58ujhZ7GEd-yN_EWmNEmrg" y="80"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_58t8cZ7GEd-yN_EWmNEmrg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_58t8cp7GEd-yN_EWmNEmrg" fontName="Sans"/>
+    <element xmi:type="uml:ControlFlow" href="SearchForSimilarProcesses-interactions.uml#_58tVYJ7GEd-yN_EWmNEmrg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_58t8c57GEd-yN_EWmNEmrg" points="[1, 20, -2, -28]$[3, 40, 0, -8]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_58wYsJ7GEd-yN_EWmNEmrg" id="(0.5,0.2)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_6ehpAJ7GEd-yN_EWmNEmrg" type="4001" source="_sEC8cJ7GEd-yN_EWmNEmrg" target="_vzitAJ7GEd-yN_EWmNEmrg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6ehpBJ7GEd-yN_EWmNEmrg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6ehpBZ7GEd-yN_EWmNEmrg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6ehpBp7GEd-yN_EWmNEmrg" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6ehpB57GEd-yN_EWmNEmrg" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6ehpCJ7GEd-yN_EWmNEmrg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6ehpCZ7GEd-yN_EWmNEmrg" y="80"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_6ehpAZ7GEd-yN_EWmNEmrg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_6ehpAp7GEd-yN_EWmNEmrg" fontName="Sans"/>
+    <element xmi:type="uml:ControlFlow" href="SearchForSimilarProcesses-interactions.uml#_6ehB8J7GEd-yN_EWmNEmrg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6ehpA57GEd-yN_EWmNEmrg" points="[-2, 20, 0, -49]$[-23, 60, -21, -9]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6ejeMJ7GEd-yN_EWmNEmrg" id="(0.4948453608247423,0.05)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Kke_8J7HEd-yN_EWmNEmrg" type="4001" source="_vzitAJ7GEd-yN_EWmNEmrg" target="_Ez8ksJ7HEd-yN_EWmNEmrg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Kke_9J7HEd-yN_EWmNEmrg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Kke_9Z7HEd-yN_EWmNEmrg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Kke_9p7HEd-yN_EWmNEmrg" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Kke_957HEd-yN_EWmNEmrg" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Kke_-J7HEd-yN_EWmNEmrg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Kke_-Z7HEd-yN_EWmNEmrg" y="80"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_Kke_8Z7HEd-yN_EWmNEmrg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Kke_8p7HEd-yN_EWmNEmrg" fontName="Sans"/>
+    <element xmi:type="uml:ControlFlow" href="SearchForSimilarProcesses-interactions.uml#_Kkdx0J7HEd-yN_EWmNEmrg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Kke_857HEd-yN_EWmNEmrg" points="[-26, 1, 39, -3]$[-56, 3, 9, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kkg1IJ7HEd-yN_EWmNEmrg" id="(0.08934707903780069,0.425)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kkg1IZ7HEd-yN_EWmNEmrg" id="(0.9704918032786886,0.4)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_bYNb0J7HEd-yN_EWmNEmrg" type="4001" source="_aF3qMJ7HEd-yN_EWmNEmrg" target="_-bxCAJ7DEd-yN_EWmNEmrg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_bYNb1J7HEd-yN_EWmNEmrg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bYNb1Z7HEd-yN_EWmNEmrg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_bYNb1p7HEd-yN_EWmNEmrg" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bYNb157HEd-yN_EWmNEmrg" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_bYNb2J7HEd-yN_EWmNEmrg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bYNb2Z7HEd-yN_EWmNEmrg" y="80"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_bYNb0Z7HEd-yN_EWmNEmrg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_bYNb0p7HEd-yN_EWmNEmrg" fontName="Sans"/>
+    <element xmi:type="uml:ControlFlow" href="SearchForSimilarProcesses-interactions.uml#_bYM0wJ7HEd-yN_EWmNEmrg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bYNb057HEd-yN_EWmNEmrg" points="[1, 8, 0, -26]$[-49, 27, -50, -7]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bYQfIJ7HEd-yN_EWmNEmrg" id="(0.19063545150501673,0.175)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_eJ6ucJ7HEd-yN_EWmNEmrg" type="4001" source="_Ez8ksJ7HEd-yN_EWmNEmrg" target="_TtDuAJ7HEd-yN_EWmNEmrg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_eJ7VgJ7HEd-yN_EWmNEmrg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eJ7VgZ7HEd-yN_EWmNEmrg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_eJ7Vgp7HEd-yN_EWmNEmrg" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eJ7Vg57HEd-yN_EWmNEmrg" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_eJ7VhJ7HEd-yN_EWmNEmrg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eJ7VhZ7HEd-yN_EWmNEmrg" y="80"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_eJ6ucZ7HEd-yN_EWmNEmrg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eJ6ucp7HEd-yN_EWmNEmrg" fontName="Sans"/>
+    <element xmi:type="uml:ControlFlow" href="SearchForSimilarProcesses-interactions.uml#_eJ6HYJ7HEd-yN_EWmNEmrg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eJ6uc57HEd-yN_EWmNEmrg" points="[-2, 20, -11, -35]$[-16, 35, -25, -20]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fFMq8J7HEd-yN_EWmNEmrg" id="(0.4318181818181818,0.225)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_gMGBkJ7HEd-yN_EWmNEmrg" type="4001" source="_TtDuAJ7HEd-yN_EWmNEmrg" target="_fnjxIJ7HEd-yN_EWmNEmrg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gMGBlJ7HEd-yN_EWmNEmrg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gMGBlZ7HEd-yN_EWmNEmrg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gMGBlp7HEd-yN_EWmNEmrg" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gMGooJ7HEd-yN_EWmNEmrg" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gMGooZ7HEd-yN_EWmNEmrg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gMGoop7HEd-yN_EWmNEmrg" y="80"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_gMGBkZ7HEd-yN_EWmNEmrg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gMGBkp7HEd-yN_EWmNEmrg" fontName="Sans"/>
+    <element xmi:type="uml:ControlFlow" href="SearchForSimilarProcesses-interactions.uml#_gMFagJ7HEd-yN_EWmNEmrg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gMGBk57HEd-yN_EWmNEmrg" points="[8, 2, -62, 0]$[67, -1, -3, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gMH2wJ7HEd-yN_EWmNEmrg" id="(0.9393939393939394,0.35)"/>
+  </edges>
+</notation:Diagram>

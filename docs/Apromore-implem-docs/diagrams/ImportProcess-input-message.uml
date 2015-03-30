@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_NwtI4FDqEd-0jeEP2wV1Gg" name="manager_portal / ImportProcess operation">
+  <elementImport xmi:id="_NxM4IFDqEd-0jeEP2wV1Gg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_NxM4IVDqEd-0jeEP2wV1Gg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_NxM4IlDqEd-0jeEP2wV1Gg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_NxM4I1DqEd-0jeEP2wV1Gg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Sp_zEFDqEd-0jeEP2wV1Gg" name="ImportProcessInputMsg">
+    <ownedAttribute xmi:id="_VT5NgFDqEd-0jeEP2wV1Gg" name="processName" aggregation="composite"/>
+    <ownedAttribute xmi:id="_WozyAFDqEd-0jeEP2wV1Gg" name="domain" aggregation="composite"/>
+    <ownedAttribute xmi:id="_XEC8gFDqEd-0jeEP2wV1Gg" name="username" aggregation="composite"/>
+    <ownedAttribute xmi:id="_ax68cFDqEd-0jeEP2wV1Gg" name="nativeType" aggregation="composite"/>
+    <ownedAttribute xmi:id="_wyu6wGPOEd-VF-hfqj3fRQ" name="versionName" aggregation="composite"/>
+    <ownedAttribute xmi:id="_YFzdAH9kEd-l5PJ7iLmDVg" name="creationDate" aggregation="composite"/>
+    <ownedAttribute xmi:id="_ZWS0gH9kEd-l5PJ7iLmDVg" name="last_update" aggregation="composite"/>
+    <ownedAttribute xmi:id="_dEj2AH9kEd-l5PJ7iLmDVg" name="documentation" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fSwqYFDqEd-0jeEP2wV1Gg" name="ProcessDescription">
+    <ownedAttribute xmi:id="_imx_4FDqEd-0jeEP2wV1Gg" name="content" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Myp1II4HEd-xyqaCDx93Bw" memberEnd="_Myp1IY4HEd-xyqaCDx93Bw _Myp1JI4HEd-xyqaCDx93Bw">
+    <ownedEnd xmi:id="_Myp1IY4HEd-xyqaCDx93Bw" name="src" type="_Sp_zEFDqEd-0jeEP2wV1Gg" association="_Myp1II4HEd-xyqaCDx93Bw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Myp1I44HEd-xyqaCDx93Bw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Myp1Io4HEd-xyqaCDx93Bw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Myp1JI4HEd-xyqaCDx93Bw" name="attached" type="_fSwqYFDqEd-0jeEP2wV1Gg" association="_Myp1II4HEd-xyqaCDx93Bw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Myp1Jo4HEd-xyqaCDx93Bw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Myp1JY4HEd-xyqaCDx93Bw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Package>

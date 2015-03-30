@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_1ylPcFv4Ed-c3JmuoYYVdg" name="da_canoniser / StoreNative operation">
+  <elementImport xmi:id="_1zFlwFv4Ed-c3JmuoYYVdg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_1zFlwVv4Ed-c3JmuoYYVdg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_1zFlwlv4Ed-c3JmuoYYVdg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_1zFlw1v4Ed-c3JmuoYYVdg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ByLN8Fv5Ed-c3JmuoYYVdg" name="StoreNativeInputMsg">
+    <ownedAttribute xmi:id="_D61jkFv5Ed-c3JmuoYYVdg" name="processId" aggregation="composite"/>
+    <ownedAttribute xmi:id="_E7d6IFv5Ed-c3JmuoYYVdg" name="version" aggregation="composite"/>
+    <ownedAttribute xmi:id="_QouLcFv5Ed-c3JmuoYYVdg" name="nativeType" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LDr1kFv5Ed-c3JmuoYYVdg" name="Native process">
+    <ownedAttribute xmi:id="_Mu5aMFv5Ed-c3JmuoYYVdg" name="content" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OIBwUFv5Ed-c3JmuoYYVdg" name="attached" memberEnd="_OIBwUVv5Ed-c3JmuoYYVdg _OIBwVFv5Ed-c3JmuoYYVdg">
+    <ownedEnd xmi:id="_OIBwUVv5Ed-c3JmuoYYVdg" name="src" type="_ByLN8Fv5Ed-c3JmuoYYVdg" association="_OIBwUFv5Ed-c3JmuoYYVdg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OIBwU1v5Ed-c3JmuoYYVdg" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OIBwUlv5Ed-c3JmuoYYVdg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_OIBwVFv5Ed-c3JmuoYYVdg" name="dst" type="_LDr1kFv5Ed-c3JmuoYYVdg" aggregation="composite" association="_OIBwUFv5Ed-c3JmuoYYVdg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OICXYVv5Ed-c3JmuoYYVdg" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OICXYFv5Ed-c3JmuoYYVdg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Package>

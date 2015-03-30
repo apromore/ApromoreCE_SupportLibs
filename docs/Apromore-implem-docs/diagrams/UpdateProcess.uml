@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_E9wwQFvlEd-c3JmuoYYVdg">
+  <elementImport xmi:id="_E-SUsFvlEd-c3JmuoYYVdg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_E-S7wFvlEd-c3JmuoYYVdg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_E-S7wVvlEd-c3JmuoYYVdg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_E-S7wlvlEd-c3JmuoYYVdg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_F2B1AFvlEd-c3JmuoYYVdg" name="Manager">
+    <node xmi:type="uml:InitialNode" xmi:id="_KHH2wFvlEd-c3JmuoYYVdg" outgoing="_goB34FvlEd-c3JmuoYYVdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Kn3MUFvlEd-c3JmuoYYVdg" name="Receive UpdateProcessInputMsg" outgoing="_hQAd4FvlEd-c3JmuoYYVdg" incoming="_goB34FvlEd-c3JmuoYYVdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PiAyIFvlEd-c3JmuoYYVdg" name="Send CanoniseVersionInputMsg" outgoing="_h3sI8FvlEd-c3JmuoYYVdg" incoming="_hQAd4FvlEd-c3JmuoYYVdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_4OM38FvlEd-c3JmuoYYVdg" name="Receive CanoniseVersionOutputMsg" incoming="_7R7usFvlEd-c3JmuoYYVdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_goB34FvlEd-c3JmuoYYVdg" source="_KHH2wFvlEd-c3JmuoYYVdg" target="_Kn3MUFvlEd-c3JmuoYYVdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hQAd4FvlEd-c3JmuoYYVdg" source="_Kn3MUFvlEd-c3JmuoYYVdg" target="_PiAyIFvlEd-c3JmuoYYVdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_h3sI8FvlEd-c3JmuoYYVdg" source="_PiAyIFvlEd-c3JmuoYYVdg" target="_STk60FvlEd-c3JmuoYYVdg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_G4ewgFvlEd-c3JmuoYYVdg" name="Canoniser">
+    <node xmi:type="uml:OpaqueAction" xmi:id="_STk60FvlEd-c3JmuoYYVdg" name="Receive CanoniseVersionInputMsg" outgoing="_iX5TAFvlEd-c3JmuoYYVdg" incoming="_h3sI8FvlEd-c3JmuoYYVdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_U9NPgFvlEd-c3JmuoYYVdg" name="Canonise" outgoing="_i1RLgFvlEd-c3JmuoYYVdg" incoming="_iX5TAFvlEd-c3JmuoYYVdg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_Wk1UoFvlEd-c3JmuoYYVdg" name="DecisionNode" outgoing="_jY-8kFvlEd-c3JmuoYYVdg _lIPTsFvlEd-c3JmuoYYVdg" incoming="_i1RLgFvlEd-c3JmuoYYVdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_YlGjQFvlEd-c3JmuoYYVdg" name="Send DeriveVersionInputMsg" outgoing="_mh0VwFvlEd-c3JmuoYYVdg" incoming="_lIPTsFvlEd-c3JmuoYYVdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_bT658FvlEd-c3JmuoYYVdg" name="Receive DeriveVersionOutputMsg" outgoing="_w0k_AFvlEd-c3JmuoYYVdg" incoming="_NTE_8FvmEd-c3JmuoYYVdg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_fi9tQFvlEd-c3JmuoYYVdg" name="MergeNode" outgoing="_1vkSUFvlEd-c3JmuoYYVdg" incoming="_jY-8kFvlEd-c3JmuoYYVdg _w0k_AFvlEd-c3JmuoYYVdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_yP01AFvlEd-c3JmuoYYVdg" name="Send CanoniseVersionInputMsg" outgoing="_7R7usFvlEd-c3JmuoYYVdg" incoming="_1vkSUFvlEd-c3JmuoYYVdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_iX5TAFvlEd-c3JmuoYYVdg" source="_STk60FvlEd-c3JmuoYYVdg" target="_U9NPgFvlEd-c3JmuoYYVdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_i1RLgFvlEd-c3JmuoYYVdg" source="_U9NPgFvlEd-c3JmuoYYVdg" target="_Wk1UoFvlEd-c3JmuoYYVdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jY-8kFvlEd-c3JmuoYYVdg" name="Canonisation non OK" source="_Wk1UoFvlEd-c3JmuoYYVdg" target="_fi9tQFvlEd-c3JmuoYYVdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lIPTsFvlEd-c3JmuoYYVdg" name="Canonisation OK" source="_Wk1UoFvlEd-c3JmuoYYVdg" target="_YlGjQFvlEd-c3JmuoYYVdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mh0VwFvlEd-c3JmuoYYVdg" source="_YlGjQFvlEd-c3JmuoYYVdg" target="_Ac8bAFvmEd-c3JmuoYYVdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_w0k_AFvlEd-c3JmuoYYVdg" source="_bT658FvlEd-c3JmuoYYVdg" target="_fi9tQFvlEd-c3JmuoYYVdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1vkSUFvlEd-c3JmuoYYVdg" source="_fi9tQFvlEd-c3JmuoYYVdg" target="_yP01AFvlEd-c3JmuoYYVdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7R7usFvlEd-c3JmuoYYVdg" source="_yP01AFvlEd-c3JmuoYYVdg" target="_4OM38FvlEd-c3JmuoYYVdg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_7nXzMFvlEd-c3JmuoYYVdg" name="Data access">
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Ac8bAFvmEd-c3JmuoYYVdg" name="Receive DeriveVersionInputMsg" outgoing="_MM4M4FvmEd-c3JmuoYYVdg" incoming="_mh0VwFvlEd-c3JmuoYYVdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_F45tYFvmEd-c3JmuoYYVdg" name="Send DeriveVersionOutputMsg" outgoing="_NTE_8FvmEd-c3JmuoYYVdg" incoming="_MuXwYFvmEd-c3JmuoYYVdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_JjZCIFvmEd-c3JmuoYYVdg" name="StoreDerivedVersion" outgoing="_MuXwYFvmEd-c3JmuoYYVdg" incoming="_MM4M4FvmEd-c3JmuoYYVdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_MM4M4FvmEd-c3JmuoYYVdg" source="_Ac8bAFvmEd-c3JmuoYYVdg" target="_JjZCIFvmEd-c3JmuoYYVdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_MuXwYFvmEd-c3JmuoYYVdg" source="_JjZCIFvmEd-c3JmuoYYVdg" target="_F45tYFvmEd-c3JmuoYYVdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NTE_8FvmEd-c3JmuoYYVdg" source="_F45tYFvmEd-c3JmuoYYVdg" target="_bT658FvlEd-c3JmuoYYVdg"/>
+  </packagedElement>
+</uml:Package>

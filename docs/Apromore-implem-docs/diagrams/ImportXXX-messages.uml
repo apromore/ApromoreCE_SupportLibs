@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_QRg4oDx5Ed-PuesF_l6bvg" name="Repository manager">
+  <elementImport xmi:id="_QSDrMDx5Ed-PuesF_l6bvg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_QSDrMTx5Ed-PuesF_l6bvg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_QSDrMjx5Ed-PuesF_l6bvg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_QSDrMzx5Ed-PuesF_l6bvg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_RRw0sDx5Ed-PuesF_l6bvg" name="XXXMessage">
+    <ownedAttribute xmi:id="_WEdusDx5Ed-PuesF_l6bvg" name="username" aggregation="composite"/>
+    <ownedAttribute xmi:id="_W1mQsDx5Ed-PuesF_l6bvg" name="passwd" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YhjcMDx5Ed-PuesF_l6bvg" name="xpdl">
+    <generalization xmi:id="_sNur4Dx5Ed-PuesF_l6bvg" general="_2D9hIELPEd-m8-35QmbIig" generalizationSet="_q87LUDx5Ed-PuesF_l6bvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aEq0wDx5Ed-PuesF_l6bvg" name="yawl">
+    <generalization xmi:id="_rmDn4Dx5Ed-PuesF_l6bvg" general="_2D9hIELPEd-m8-35QmbIig" generalizationSet="_q87LUDx5Ed-PuesF_l6bvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bNTQwDx5Ed-PuesF_l6bvg" name="epc">
+    <generalization xmi:id="_q9ZscDx5Ed-PuesF_l6bvg" general="_2D9hIELPEd-m8-35QmbIig" generalizationSet="_q87LUDx5Ed-PuesF_l6bvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gXp1wDx5Ed-PuesF_l6bvg" name="....">
+    <generalization xmi:id="_qa-74Dx5Ed-PuesF_l6bvg" general="_2D9hIELPEd-m8-35QmbIig" generalizationSet="_q87LUDx5Ed-PuesF_l6bvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:GeneralizationSet" xmi:id="_q87LUDx5Ed-PuesF_l6bvg" isCovering="true" isDisjoint="true" generalization="_qa-74Dx5Ed-PuesF_l6bvg _q9ZscDx5Ed-PuesF_l6bvg _rmDn4Dx5Ed-PuesF_l6bvg _sNur4Dx5Ed-PuesF_l6bvg"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_2D9hIELPEd-m8-35QmbIig" name="Native"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6PJvMELPEd-m8-35QmbIig" memberEnd="_6PJvMULPEd-m8-35QmbIig _6PJvNELPEd-m8-35QmbIig">
+    <ownedEnd xmi:id="_6PJvMULPEd-m8-35QmbIig" name="src" type="_2D9hIELPEd-m8-35QmbIig" association="_6PJvMELPEd-m8-35QmbIig">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6PJvM0LPEd-m8-35QmbIig" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6PJvMkLPEd-m8-35QmbIig" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_6PJvNELPEd-m8-35QmbIig" name="dst" type="_RRw0sDx5Ed-PuesF_l6bvg" aggregation="composite" association="_6PJvMELPEd-m8-35QmbIig">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6PJvNkLPEd-m8-35QmbIig" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6PJvNULPEd-m8-35QmbIig" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Package>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_eeKUgELPEd-m8-35QmbIig" name="Repository manager">
+  <elementImport xmi:id="_eepcsELPEd-m8-35QmbIig">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_eepcsULPEd-m8-35QmbIig">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_eepcskLPEd-m8-35QmbIig">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_eepcs0LPEd-m8-35QmbIig">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_g5dSQELPEd-m8-35QmbIig" name="Native message">
+    <ownedAttribute xmi:id="_ifxIwELPEd-m8-35QmbIig" name="code" aggregation="composite"/>
+    <ownedAttribute xmi:id="_jOsEQELPEd-m8-35QmbIig" name="message" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IivJkELQEd-m8-35QmbIig" name="Native"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LG2FEELQEd-m8-35QmbIig" memberEnd="_LG2sIELQEd-m8-35QmbIig _LG2sI0LQEd-m8-35QmbIig">
+    <ownedEnd xmi:id="_LG2sIELQEd-m8-35QmbIig" name="src" type="_IivJkELQEd-m8-35QmbIig" association="_LG2FEELQEd-m8-35QmbIig">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LG2sIkLQEd-m8-35QmbIig" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LG2sIULQEd-m8-35QmbIig" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_LG2sI0LQEd-m8-35QmbIig" name="dst" type="_g5dSQELPEd-m8-35QmbIig" aggregation="composite" association="_LG2FEELQEd-m8-35QmbIig">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LG2sJULQEd-m8-35QmbIig" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LG2sJELQEd-m8-35QmbIig" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LlhlIELQEd-m8-35QmbIig" name="xpdl">
+    <generalization xmi:id="_Xe_tgELQEd-m8-35QmbIig" general="_IivJkELQEd-m8-35QmbIig" generalizationSet="_VFuwEELQEd-m8-35QmbIig"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_M0QCEELQEd-m8-35QmbIig" name="yawl">
+    <generalization xmi:id="_W134AELQEd-m8-35QmbIig" general="_IivJkELQEd-m8-35QmbIig" generalizationSet="_VFuwEELQEd-m8-35QmbIig"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OhlGkELQEd-m8-35QmbIig" name="epc">
+    <generalization xmi:id="_VF6WQELQEd-m8-35QmbIig" general="_IivJkELQEd-m8-35QmbIig" generalizationSet="_VFuwEELQEd-m8-35QmbIig"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PWc5EELQEd-m8-35QmbIig" name="etc.">
+    <generalization xmi:id="_UaZUEELQEd-m8-35QmbIig" general="_IivJkELQEd-m8-35QmbIig" generalizationSet="_VFuwEELQEd-m8-35QmbIig"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:GeneralizationSet" xmi:id="_VFuwEELQEd-m8-35QmbIig" isCovering="true" isDisjoint="true" generalization="_UaZUEELQEd-m8-35QmbIig _VF6WQELQEd-m8-35QmbIig _W134AELQEd-m8-35QmbIig _Xe_tgELQEd-m8-35QmbIig"/>
+</uml:Package>

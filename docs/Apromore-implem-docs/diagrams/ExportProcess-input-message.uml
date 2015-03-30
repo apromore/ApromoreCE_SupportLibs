@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_AHSa8FDsEd-0jeEP2wV1Gg" name="manager_portal / ExportProcess input message">
+  <elementImport xmi:id="_AHxjIFDsEd-0jeEP2wV1Gg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_AHxjIVDsEd-0jeEP2wV1Gg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_AHyKMFDsEd-0jeEP2wV1Gg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_AHyKMVDsEd-0jeEP2wV1Gg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GlM5kFDsEd-0jeEP2wV1Gg" name="ExportNativeInputMsg">
+    <ownedAttribute xmi:id="_JCNHgFDsEd-0jeEP2wV1Gg" name="processsId" aggregation="composite"/>
+    <ownedAttribute xmi:id="_KNDKAFDsEd-0jeEP2wV1Gg" name="versionName" aggregation="composite"/>
+    <ownedAttribute xmi:id="_K6EBAFDsEd-0jeEP2wV1Gg" name="format" aggregation="composite"/>
+    <ownedAttribute xmi:id="_Zbtw8I4TEd-xyqaCDx93Bw" name="withAnnotation" aggregation="composite"/>
+    <ownedAttribute xmi:id="_aniq4I4TEd-xyqaCDx93Bw" name="annotationName" aggregation="composite"/>
+    <ownedAttribute xmi:id="_yB1TEJ7SEd-yN_EWmNEmrg" name="owner" aggregation="composite"/>
+    <ownedAttribute xmi:id="_0LQdsJ7SEd-yN_EWmNEmrg" name="processName" aggregation="composite"/>
+  </packagedElement>
+</uml:Package>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_muomIGiQEd-G44puFEahEw" name="manager_portal / WriteEditSession operation">
+  <elementImport xmi:id="_mvI8cGiQEd-G44puFEahEw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_mvI8cWiQEd-G44puFEahEw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_mvI8cmiQEd-G44puFEahEw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_mvI8c2iQEd-G44puFEahEw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_n9u2gGiQEd-G44puFEahEw" name="EditSession">
+    <ownedAttribute xmi:id="_stGvsGiQEd-G44puFEahEw" name="username" aggregation="composite"/>
+    <ownedAttribute xmi:id="_vw5Q0GiQEd-G44puFEahEw" name="processId" aggregation="composite"/>
+    <ownedAttribute xmi:id="_wd6H0GiQEd-G44puFEahEw" name="processName" aggregation="composite"/>
+    <ownedAttribute xmi:id="_xMwx4GiQEd-G44puFEahEw" name="versionName" aggregation="composite"/>
+    <ownedAttribute xmi:id="_x5i_YGiQEd-G44puFEahEw" name="nativeType" aggregation="composite"/>
+    <ownedAttribute xmi:id="_0MIGAGiQEd-G44puFEahEw" name="domain" aggregation="composite"/>
+    <ownedAttribute xmi:id="_NUQ0oJlQEd-5Qu8JA-2Wfw" name="annotation" aggregation="composite"/>
+    <ownedAttribute xmi:id="_8FEdIJ7TEd-yN_EWmNEmrg" name="withAnnotation" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ksi-8GiREd-G44puFEahEw" name="WriteEditSessionInputMsg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UMS24GiREd-G44puFEahEw" memberEnd="_UMTd8GiREd-G44puFEahEw _UMTd82iREd-G44puFEahEw">
+    <ownedEnd xmi:id="_UMTd8GiREd-G44puFEahEw" name="src" type="_Ksi-8GiREd-G44puFEahEw" association="_UMS24GiREd-G44puFEahEw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UMTd8miREd-G44puFEahEw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UMTd8WiREd-G44puFEahEw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UMTd82iREd-G44puFEahEw" name="dst" type="_n9u2gGiQEd-G44puFEahEw" aggregation="composite" association="_UMS24GiREd-G44puFEahEw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UMTd9WiREd-G44puFEahEw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UMTd9GiREd-G44puFEahEw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Package>
