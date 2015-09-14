@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Sep 14 12:28:52 AEST 2015
+com.springsource.org.apache.tools.ant-1.8.3.jar>=
+com.springsource.org.apache.tools.ant-1.8.3.pom>=

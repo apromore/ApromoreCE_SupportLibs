@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Sep 14 12:24:58 AEST 2015
+bpmn-1.0.pom>=
+bpmn-1.0.jar>=

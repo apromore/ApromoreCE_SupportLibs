@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Sep 14 12:25:48 AEST 2015
+jgrapht-jdk-1.0.pom>=
+jgrapht-jdk-1.0.jar>=
