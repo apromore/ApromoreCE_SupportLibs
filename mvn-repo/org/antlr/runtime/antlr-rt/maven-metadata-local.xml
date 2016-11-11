@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.antlr.runtime</groupId>
+  <artifactId>antlr-rt</artifactId>
+  <versioning>
+    <release>3.2.0</release>
+    <versions>
+      <version>3.2.0</version>
+    </versions>
+    <lastUpdated>20151030054201</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,4 @@
+The mvn-repo subdirectory must be structured as a Maven repository, so it shouldn't be edited by hand.
+To add the file example-1.0.jar as com.example:example version 1.0, use the following command line.
+
+$ mvn install:install-file -Dmaven.repo.local=mvn-repo -Dfile=example-1.0.jar -DgroupId=com.example -DartifactId=example -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
