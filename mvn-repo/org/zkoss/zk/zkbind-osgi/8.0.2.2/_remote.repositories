@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Jan 16 11:30:26 AEST 2017
+zkbind-osgi-8.0.2.2.jar>=
+zkbind-osgi-8.0.2.2.pom>=
