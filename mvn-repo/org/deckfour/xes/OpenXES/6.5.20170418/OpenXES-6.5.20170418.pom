@@ -4,6 +4,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.deckfour.xes</groupId>
   <artifactId>OpenXES</artifactId>
-  <version>6.5</version>
+  <version>6.5.20170418</version>
   <description>POM was created from install:install-file</description>
 </project>
