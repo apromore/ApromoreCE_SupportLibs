@@ -1,0 +1,18 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon May 15 11:59:52 AEST 2017
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://download.eclipse.org/gemini/mvn/.lastUpdated=1494813589478
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://repository.springsource.com/maven/bundles/snapshot/.error=
+https\://raw.github.com/apromore/ApromoreDev/master/mvn-repo/.error=
+https\://raw.github.com/apromore/ApromoreDev/master/mvn-repo/.lastUpdated=1494813583365
+http\://download.eclipse.org/gemini/mvn/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1494813592581
+https\://repo.maven.apache.org/maven2/.error=
+http\://repository.springsource.com/maven/bundles/snapshot/.lastUpdated=1494813589972
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1494813591292
+http\://repository.springsource.com/maven/bundles/milestone/.error=
+http\://download.eclipse.org/rt/eclipselink/maven.repo/.lastUpdated=1494813588954
+http\://download.eclipse.org/rt/eclipselink/maven.repo/.error=
+http\://repository.springsource.com/maven/bundles/milestone/.lastUpdated=1494813591750
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1494813590824
