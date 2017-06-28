@@ -3,10 +3,10 @@
   <groupId>com.raffaeleconforti</groupId>
   <artifactId>bpmnminer-commandline</artifactId>
   <versioning>
-    <release>1.0.20170522</release>
+    <release>1.0.20170628</release>
     <versions>
-      <version>1.0.20170522</version>
+      <version>1.0.20170628</version>
     </versions>
-    <lastUpdated>20170523041819</lastUpdated>
+    <lastUpdated>20170628065116</lastUpdated>
   </versioning>
 </metadata>
