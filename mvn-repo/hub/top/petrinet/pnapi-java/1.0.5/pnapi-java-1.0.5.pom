@@ -4,6 +4,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>hub.top.petrinet</groupId>
   <artifactId>pnapi-java</artifactId>
-  <version>1.0</version>
+  <version>1.0.5</version>
   <description>POM was created from install:install-file</description>
 </project>
