@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Mar 28 09:30:22 AEST 2019
+assembly-1.0.20190327.pom>=
+assembly-1.0.20190327.jar>=
